@@ -97,8 +97,7 @@ elif selected == "Skills":
         st.markdown('<div class="card">🤖 <b>Machine Learning & NLP</b><br>Regression, NLP, Recommendation Systems</div>', unsafe_allow_html=True)
     with col3:
         st.markdown('<div class="card">🧠 <b>frontend</b><br> Streamlit</div>', unsafe_allow_html=True)
-
-   with col4:
+    with col4:
         st.markdown('<div class="card">🧠 <b>Agentic AI & GenAI Tools</b><br>AutoGen, LangChain, n8n</div>', unsafe_allow_html=True)
 
 
