@@ -60,7 +60,8 @@ if selected == "Home":
             "🌱 Always experimenting with GenAI to push boundaries and create applications that are not just reactive—but proactive and adaptive."
         )
     with col2:
-        st.markdown("<img src='WhatsApp Image 2025-02-27 at 17.44.00_ff3d19f2.jpg' style='width:220px;height:220px;border-radius:50%;object-fit:cover;'>", unsafe_allow_html=True)
+        st.markdown("<div style='display:flex;justify-content:center;'><img src='WhatsApp Image 2025-02-27 at 17.44.00_ff3d19f2.jpg' width='220' style='border-radius:50%;object-fit:cover;'></div>", unsafe_allow_html=True)
+
 
 
 # ---------------- ABOUT -------------------
