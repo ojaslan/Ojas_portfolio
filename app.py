@@ -60,7 +60,7 @@ if selected == "Home":
             "🌱 Always experimenting with GenAI to push boundaries and create applications that are not just reactive—but proactive and adaptive."
         )
     with col2:
-        st.markdown("<div style='display:flex;justify-content:center;'><img src='WhatsApp Image 2025-02-27 at 17.44.00_ff3d19f2.jpg' width='220' style='border-radius:50%;object-fit:cover;'></div>", unsafe_allow_html=True)
+        st.img('WhatsApp Image 2025-02-27 at 17.44.00_ff3d19f2.jpg' width='220' style='border-radius:50%;object-fit:cover;'></div>", unsafe_allow_html=True)
 
 
 
@@ -88,21 +88,25 @@ elif selected == "Skills":
     with col2:
         st.markdown('<div class="card">🤖 <b>Machine Learning & NLP</b><br>Regression, NLP, Recommendation Systems</div>', unsafe_allow_html=True)
     with col3:
-        st.markdown('<div class="card">🧠 <b>Agentic AI & GenAI Tools</b><br>AutoGen, LangChain, Streamlit</div>', unsafe_allow_html=True)
+        st.markdown('<div class="card">🧠 <b>frontend</b><br> Streamlit</div>', unsafe_allow_html=True)
+
+   with col4:
+        st.markdown('<div class="card">🧠 <b>Agentic AI & GenAI Tools</b><br>AutoGen, LangChain, n8n</div>', unsafe_allow_html=True)
+
 
 # ---------------- PROJECTS ----------------
 elif selected == "Projects":
-    st.markdown('<div class="card">📌 <b>BuyBuddy</b> - Conversational Shopping Agent (n8n + Payman)</div>', unsafe_allow_html=True)
-    st.markdown('<div class="card">📌 <b>BillBuddy</b> - Smart Bill Analyzer (Streamlit + Gemini)</div>', unsafe_allow_html=True)
-    st.markdown('<div class="card">📌 <b>AI Research Agent</b> - AutoGen, LangChain, Arxiv</div>', unsafe_allow_html=True)
-    st.markdown('<div class="card">📌 <b>Agentic Workflows</b> - Building autonomous AI systems with AutoGen</div>', unsafe_allow_html=True)
+    st.markdown('<div class="card">📌 <b>minimart</b> - a ecommerce website where transaction can occur using ai(payman ai)</div>', unsafe_allow_html=True)
+    st.markdown('<div class="card">📌 <b>bytecal</b> - ai agent that tells us how many calories in your food', unsafe_allow_html=True)
+    st.markdown('<div class="card">📌 <b>blog generator</b> - upload your photo or text and according to your given data your full blog is created>', unsafe_allow_html=True)
+    st.markdown('<div class="card">📌 <b>finsight ai</b> - Ai system that help in your financial advice means your personal financial agent</div>', unsafe_allow_html=True)
 
 # ---------------- CONTACT -----------------
 elif selected == "Contact":
     st.markdown(
         """
         <div class="card">
-        📧 Email: <a href="mailto:ojas@example.com">ojas@example.com</a><br>
+        📧 Email: <a href="mailto:ojaslanjekar750@gmail.com">ojaslanjekar750@gmail.com</a><br>
         💼 LinkedIn: <a href="https://www.linkedin.com">linkedin.com/in/ojas</a><br>
         🐙 GitHub: <a href="https://github.com">github.com/ojas</a>
         </div>
