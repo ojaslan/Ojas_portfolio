@@ -60,7 +60,7 @@ if selected == "Home":
             "🌱 Always experimenting with GenAI to push boundaries and create applications that are not just reactive—but proactive and adaptive."
         )
     with col2:
-        st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=220)
+        st.image("https://share.google/Tljpyzkldf8rSAq1B", width=220)
 
 # ---------------- ABOUT -------------------
 elif selected == "About":
